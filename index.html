@@ -2,8 +2,37 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
         <title>Rock Paper Scissors</title>
-        <script src="script.js"></script>
-
     </head>
+
+    <body>
+        <div class="header">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div class="choices">
+            <img src="./images/btn_rock.png" id="rock-btn">
+            <img src="./images/btn_paper.png" id="paper-btn">
+            <img src="./images/btn_scissors.png" id="scissors-btn">
+        </div>
+        <div class="reset">
+            <h3 class="play">Choose your weapon.</h3>
+            <h3 class="result"></h3>
+        </div>
+        <p class="instructions">battle against the computer!</p>
+        <p class="instructions">First to five wins the tournament.</p>
+        <div class="score-board">
+            <div class="your-score">
+                <p class="score-text">your score</p>
+                <h1 class="user-score-num">0</h1>
+            </div>
+            <div class="comp-score">
+                <h1 class="comp-score-num">0</h1>
+                <p class="score-text">computer score</p>
+            </div>
+        </div>
+        <button class="play-again">play again?</button>
+    </body>
+    <script src="script.js"></script>
 </html>
